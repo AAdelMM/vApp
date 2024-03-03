@@ -1,0 +1,13 @@
+﻿ILLEGAL PARKING,100
+Not Wearing a Seatbelt - Auto Detection,150
+Driver Using Any Handheld Device While Driving - Auto Detection,500
+Driving on Shoulders of the Road/sidewalks/paths Where Driving Is Prohibited -Auto Detection,1000
+Crossing a Red Traffic Light - Auto Detection,3000
+Slowing to the Point Of Obstructing Traffic,300
+Exceeding the Speed Limit by More Than 10 to 20 Km/h - Auto Detection,150
+Exceeding the Speed Limit by More Than 20 to 30 Km/h - Auto Detection,300
+Exceeding the Speed Limit by More Than 30 to 40 Km/h - Auto Detection,800
+Exceeding the Speed Limit by More Than 40 to 50 Km/h - Auto Detection,1200
+Trucks or Heavy Machinery Entering or Exiting Cities During Unauthorized Time - Auto Detection,1000
+Failing to Follow the Road Lanes - Auto Detection,300
+Violating Road Driving Regulations - Auto Detection,150
