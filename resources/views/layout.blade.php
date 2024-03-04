@@ -24,6 +24,10 @@
   .content {
             margin-top: 56px; /* Height of the navbar */
             padding: 15px; /* Add padding to avoid content being hidden behind the navbar */
+            display: flex;
+            flex-direction: column;
+            /* Other styles for content */
+            min-height: 100vh; /* Set minimum height to viewport height */
         }
     /* The side navigation menu */
 .sidebar {
@@ -34,8 +38,16 @@
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
+  
   height: 100%;
   overflow: auto;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  /*width: 50%;*/
+  left:0;
+  /* Other styles for footer */
 }
 
 /* Sidebar links */
@@ -71,6 +83,7 @@ div.content {
 #addBn{
   margin-bottom:10px;
 }
+
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -137,10 +150,11 @@ div.content {
             </div>
         </div>
     </div>
+    <section>
     <div class="row">
             <div class="col-md-12">
               <footer class="footer text-center">
-                  <div class="container">
+                  <div class="container fixed-bottom">
                       <span class="text-muted">Designed By Ahmed Adel</span>
                       <a href="https://www.linkedin.com/in/ahmedadel426/" target="_blank"><i class="fab fa-linkedin"></i></a>
                       <a href="https://ecomark.live/" target="_blank"><i class="fas fa-globe"></i></a>
@@ -149,6 +163,7 @@ div.content {
             </div>
         </div>
     </div>
+    </section>
     <script>
         $(document).ready(function() {
             $("#addViolationBtn").click(function() {
