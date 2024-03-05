@@ -3,9 +3,10 @@
 
 <div class="col-12">
       <div class="container-fluid"> 
-                    <div class="content">
+                    <div class="content mt-1">
                       <div class="row ">
-                          <div class="container-fluid" id="addBn">
+                      <h1 class="text-success">Violation Entry</h1>
+                          <div class="container-fluid mb-3" id="addBn">
                                   
                                     <a href="{{ url('/violation_entry/create')}}"  class="btn btn-primary" >
                                       Add violation <i class="fas fa-plus"></i></a>

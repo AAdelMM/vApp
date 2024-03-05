@@ -3,11 +3,13 @@
 
 <div class="col-12">
       <div class="container-fluid"> 
-                    <div class="content">
+                    <div class="content mt-1">
+                    
                       <div class="row ">
-                          <div class="container-fluid" id="addBn">
+                      <h1 class="text-success">Violations details</h1>
+                          <div class="container-fluid mb-3" id="addBn">
                                   
-                        <h1>Violations details</h1>
+                        
                                  
                                   <button class="btn btn-success">
                                       Export to Excell <i class="fa-solid fa-download"></i> 
