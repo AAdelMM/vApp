@@ -8,9 +8,7 @@
                       <div class="row ">
                       <h1 class="text-success">Violations details</h1>
                           <div class="container-fluid mb-3" id="addBn">
-                                  
-                        
-                                 
+
                                   <button class="btn btn-success">
                                       Export to Excell <i class="fa-solid fa-download"></i> 
                                   </button>
